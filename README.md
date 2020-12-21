@@ -1,6 +1,8 @@
+해당 README 파일을 RAW형태로 보기를 추천합니다
 # JSprojcet
 1-2학기 자바스크립트 기말과제
 기능 구현 정도 : 4-나까지 구현
+
 
 JSproject 폴더의 index.html을 클릭하여 프로그램 실행
 
