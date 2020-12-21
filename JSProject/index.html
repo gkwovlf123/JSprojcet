@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마일리지 관리 프로그램</title>
+    <link rel="stylesheet" href="./project.css" type="text/css">
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="./project.js"></script>  
+</head>
+<body>
+    <h1>기말과제</h1>
+    <hr>
+    <div id="Random">
+    <input type="text" id="Randomnum" placeholder="마일리지 버튼을 클릭하시오" disabled>
+    <button id="btn1" title="버튼을 누르면 마일리지가 나타납니다">마일리지</button>
+    </div>
+    <hr>
+    <div id="tel">
+        <input type="text" id="telnum" placeholder="전화번호를 입력하시오." disabled>
+        <button id="save" title="버튼을 누르면 목록형태로 저장됩니다">저장</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <table id="table1" border="1">
+                <tr>
+                    <td colspan="3" align="center" id="td1">숫자 키패드</td>
+                </tr>
+            
+                <tr>
+                    <td><button class="numpad">1</button></td>
+                    <td><button class="numpad">2</button></td>
+                    <td><button class="numpad">3</button></td>
+               </tr>
+               <tr>
+                    <td><button class="numpad">4</button></td>
+                    <td><button class="numpad">5</button></td>
+                    <td><button class="numpad">6</button></td>
+               </tr>
+               <tr>
+                    <td><button class="numpad">7</button></td>
+                    <td><button class="numpad">8</button></td>
+                    <td><button class="numpad">9</button></td>
+               </tr>
+               <tr>
+                    <td><button id="numX">x</button></td>
+                    <td><button class="numpad">0</button></td>
+                    <td><button id="numC">c</button></td>
+               </tr>
+            </div>
+        </table>
+        <button id="emptystorage" class="empstorage" title="로컬저장소 데이터 초기화">데이터초기화</button>
+        <button id="emptystorage" class="emptable" title="표의 상단부터 항목을 하나씩 지우기">표 지우기</button>
+        <br>
+        <br>
+        <table id="table2">
+            <thead>
+                <th id="table2head">전화번호</th>
+                <th id="table2head">마일리지정보</th>
+                <th id="table2head">적립횟수</th>
+                <th id="table2head">마일리지총합</th>
+            </thead>
+            <tbody id="table2body">
+            </tbody>
+        </table>
+    </div>
+    
+    
+</body>
+</html>
